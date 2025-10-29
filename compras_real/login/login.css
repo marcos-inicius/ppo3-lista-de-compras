@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.topbar {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    text-align: center;
+
+    color: aliceblue;
+    width: 35vw;
+    height: 70vh;
+    background: rgb(0, 162, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+
+}
+input{
+    margin: 10px;
+    width: 80%;
+    height: 7%;
+    font-size: large;
+}
